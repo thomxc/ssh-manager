@@ -5,8 +5,11 @@ from prompt_toolkit.completion import WordCompleter
 from fuzzyfinder import fuzzyfinder
 from prompt_toolkit import PromptSession
 import subprocess
+from pathlib import Path
 
-root = ET.parse('servertree.xml').getroot()
+home = str(Path.home())
+
+root = ET.parse(home + '/.sshman/servertree.xml').getroot()
 
 serverdictionary = {}
 serverlist = []
