@@ -1,12 +1,14 @@
-# ssh-manager
+# sshmanager
 Easy SSH Manager with autocompletion
 
 # Dependencies
-* Python3 (for auto completion)
+* Python3.5+
 * prompt_toolkit
 * fuzzyfinder
 
 # Setup
-1) Create a serverlist with MTPutty and export it to servertree.xml and save in the root directory of this package
+1) Create a serverlist with MTPutty and export it to servertree.xml and save it to ```~/.sshman/servertree.xml```
 2) Run it!
-```python main.py``` 
+```bash
+sshman
+``` 
