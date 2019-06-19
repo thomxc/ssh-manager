@@ -7,7 +7,7 @@ setup(
     url='https://github.com/thomxc/ssh-manager',
     license='MIT',
     author='Thomas Wiersema',
-    author_email='thomas@panelinzicht.nl',
+    author_email='thomas.wiersema@gmail.com',
     description='Easy SSH Manager with autocompletion',
     install_requires=[
         'prompt_toolkit',
